@@ -16,7 +16,7 @@ function Hero() {
     headers: {
       accept: "application/json",
       Authorization:
-        "Bearer bI2UMoUYn5LZPufmUx77YCRDZ92ceaaSupZpkVz7Iwlj5nP7tMq2yBDLHmGrWsmb",
+        "Bearer dVd6UYbpLJoiRmaegUlPe5wSJ4LaDGNn8S6ZYVg7SuBlIBldXIMuc7VVWCiyn4vl",
     },
   };
 
