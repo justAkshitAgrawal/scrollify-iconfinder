@@ -192,9 +192,6 @@ function Hero() {
                 <div
                   key={category.icon_id}
                   className="flex flex-col items-center p-4 text-xl text-gray-400 rounded-md cursor-pointer hover:bg-black/20 hover:shadow-xl justify-items-center hover:text-white hover:transition-all hover:scale-110"
-                  onClick={() => {
-                    handleClickIcons(category.iconset_id);
-                  }}
                 >
                   <img
                     src={category.raster_sizes[6].formats[0].preview_url}
