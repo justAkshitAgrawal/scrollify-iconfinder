@@ -183,6 +183,9 @@ function Hero() {
             <h1 className="text-4xl ">Scrollify Iconfinder</h1>
           </div>
           <hr />
+          <h1 className="pt-4 text-xl text-center">
+            {identifier.charAt(0).toUpperCase() + identifier.slice(1)}
+          </h1>
           <div className="grid grid-cols-5 px-10 pt-20 text-center gap-y-20 gap-x-10">
             {identifier &&
               icons.icons?.map((category) => (
